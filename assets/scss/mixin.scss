@@ -1,0 +1,38 @@
+@mixin backgrounds() {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+
+@mixin buttons() {
+	box-sizing: border-box;
+	border: 0;
+	padding-left: 0;
+	padding-right: 0;
+	cursor: pointer;
+	background-color: transparent;
+	outline: none;
+}
+
+@mixin text_marign() {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+@mixin links() {
+	text-decoration: none;
+	color: initial;
+}
+
+@mixin titles {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+@mixin lists {
+	list-style-type: none;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
